@@ -72,7 +72,7 @@ function setup() {
 
 function draw() {
   background(255);
-  text("Score: "+ score, 500,50);
+  text("Scoregggg: "+ score, 500,50);
   
   if (gameState===PLAY){
     score = score + Math.round(getFrameRate()/60);
